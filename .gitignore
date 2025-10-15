@@ -2,3 +2,6 @@
 
 # editor files
 /.vscode
+
+# other files
+/.env
