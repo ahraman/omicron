@@ -13,6 +13,9 @@ dotenvy = "0.15.7"
 version = "1.47.0"
 features = ["rt-multi-thread", "macros", "net", "fs", "time"]
 
+[dependencies.tower]
+version = "0.5.2"
+
 [dependencies.axum]
 version = "0.8.6"
 default-features = false
