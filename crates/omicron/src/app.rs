@@ -6,12 +6,16 @@ use crate::Result;
 
 pub struct Config {
     pub server_url: String,
+
+    pub main_page: String,
 }
 
 impl Config {
     pub fn from_env() -> Result<Self> {
         Ok(Self {
             server_url: env::var("SERVER_URL")?,
+
+            main_page: env::var("MAIN_PAGE").unwrap_or_else(|_| "main".to_string()),
         })
     }
 }
