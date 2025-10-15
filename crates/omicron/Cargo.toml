@@ -8,6 +8,7 @@ rust-version.workspace = true
 [dependencies]
 thiserror.workspace = true
 dotenvy = "0.15.7"
+tower-http = { version = "0.6.6", features = ["normalize-path"] }
 
 [dependencies.tokio]
 version = "1.47.0"
