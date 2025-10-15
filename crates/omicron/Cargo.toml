@@ -14,9 +14,6 @@ tower-http = { version = "0.6.6", features = ["normalize-path"] }
 version = "1.47.0"
 features = ["rt-multi-thread", "macros", "net", "fs", "time"]
 
-[dependencies.tower]
-version = "0.5.2"
-
 [dependencies.axum]
 version = "0.8.6"
 default-features = false
