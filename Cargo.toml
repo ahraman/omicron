@@ -10,5 +10,10 @@ rust-version = "1.90.0"
 thiserror = "2.0.17"
 
 [workspace.dependencies.tokio]
-version = "1.48.0"
+version = "1.47.0"
 features = ["rt-multi-thread", "macros", "net", "fs", "time"]
+
+[workspace.dependencies.axum]
+version = "0.8.6"
+default-features = false
+features = ["macros", "http1", "tokio", "form"]
