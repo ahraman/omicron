@@ -7,5 +7,12 @@ rust-version.workspace = true
 
 [dependencies]
 thiserror.workspace = true
-tokio.workspace = true
-axum.workspace = true
+
+[dependencies.tokio]
+version = "1.47.0"
+features = ["rt-multi-thread", "macros", "net", "fs", "time"]
+
+[dependencies.axum]
+version = "0.8.6"
+default-features = false
+features = ["macros", "http1", "tokio", "form"]
