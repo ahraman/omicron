@@ -7,6 +7,7 @@ rust-version.workspace = true
 
 [dependencies]
 thiserror.workspace = true
+dotenvy = "0.15.7"
 
 [dependencies.tokio]
 version = "1.47.0"
