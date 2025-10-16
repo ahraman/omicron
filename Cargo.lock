@@ -265,10 +265,18 @@ version = "0.1.0"
 dependencies = [
  "axum",
  "dotenvy",
+ "omicron-db",
  "thiserror",
  "tokio",
  "tower",
  "tower-http",
+]
+
+[[package]]
+name = "omicron-db"
+version = "0.1.0"
+dependencies = [
+ "thiserror",
 ]
 
 [[package]]

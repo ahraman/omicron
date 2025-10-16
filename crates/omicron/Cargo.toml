@@ -6,6 +6,8 @@ edition.workspace = true
 rust-version.workspace = true
 
 [dependencies]
+omicron-db = { path = "../omicron-db" }
+
 thiserror.workspace = true
 dotenvy = "0.15.7"
 tower = "0.5.2"
